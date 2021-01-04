@@ -323,7 +323,8 @@ position: relative;
         "title img"
         "subtitle img"
         "text img ";
-        grid-column-gap: 2em;
+        grid-column-gap:
+         2em;
     } 
     .section__title--about{
         grid-area: title;
@@ -409,6 +410,9 @@ position: relative;
  .social-list__link{
      padding: .5em;
  }
+ @media screen and ( max-width: 1024px ) {
+     display: none; 
+ } 
  
 .porfolio-item-individual{
     padding: 0 2em 2em;
